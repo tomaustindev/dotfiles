@@ -1,0 +1,3 @@
+default:
+  output: "~/.config/nvim/lua/config/theme.lua"
+

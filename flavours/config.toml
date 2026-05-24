@@ -15,3 +15,15 @@ file = "~/.config/fuzzel/fuzzel.ini"
 start = "# flavours start"
 end = "# flavours end"
 
+[[items]]
+template = "neovim"
+subtemplate = "default"
+file = "~/.config/nvim/lua/config/theme.lua"
+rewrite = true
+
+[[items]]
+template = "lualine"
+subtemplate = "default"
+file = "~/.config/nvim/lua/lualine/themes/default.lua"
+rewrite = true
+
