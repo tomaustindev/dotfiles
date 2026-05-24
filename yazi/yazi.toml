@@ -1,0 +1,9 @@
+[mgr]
+show_hidden = true
+show_symlink = true
+
+[opener]
+edit = [
+  { run = 'sh -c "$EDITOR "$1"" _ "$@"', block = true }
+]
+
