@@ -1,0 +1,17 @@
+# commands go through bash
+shell = "bash -c '{}'"
+
+[[items]]
+template = "foot"
+subtemplate = "default"
+file = "~/.config/foot/foot.ini"
+start = "# flavours start"
+end = "# flavours end"
+
+[[items]]
+template = "fuzzel"
+subtemplate = "default"
+file = "~/.config/fuzzel/fuzzel.ini"
+start = "# flavours start"
+end = "# flavours end"
+
