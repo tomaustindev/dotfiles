@@ -1,0 +1,14 @@
+[git]
+modified  = { fg = "yellow" }
+added     = { fg = "green" }
+untracked = { fg = "blue" }
+ignored   = { fg = "gray" }
+deleted   = { fg = "red" }
+
+unknown_sign   = " "
+modified_sign  = "M"
+added_sign     = "A"
+untracked_sign = "U"
+ignored_sign   = "/"
+deleted_sign   = "D"
+
