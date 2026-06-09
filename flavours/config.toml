@@ -27,3 +27,9 @@ subtemplate = "default"
 file = "~/.config/nvim/lua/lualine/themes/default.lua"
 rewrite = true
 
+[[items]]
+template = "waybar"
+subtemplate = "default"
+file = "~/.config/waybar/style.css"
+rewrite = true
+

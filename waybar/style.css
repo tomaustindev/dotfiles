@@ -1,0 +1,64 @@
+* {
+  font-family: FiraCode Nerd Font;
+  font-size: 16px;
+  padding: 1px 7px;
+}
+
+window#waybar {
+  background-color: rgba(0.00, 0.06, 0.02, 0.8);
+  color: #dbffdb;
+}
+
+#workspaces button {
+  background-color: transparent;
+  color: #409860;
+}
+
+#workspaces button:hover {
+  box-shadow: inherit;
+  text-shadow: inherit;
+  background: transparent;
+  border: transparent;
+  padding: inherit;
+  color: #c5f09f;
+}
+
+#workspaces button.focused, #workspaces button.active {
+  color: #dbffdb;
+}
+
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left > widget:first-child > #workspaces {
+  margin-left: 0;
+}
+
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right > widget:last-child > #workspaces {
+  margin-right: 0;
+}
+
+#clock {
+  color: #409860;
+}
+
+#network {
+  color: #62b196;
+}
+
+#network.disconnected {
+  color: #f13a44;
+}
+
+#custom-power {
+  color: #bfff1c;
+}
+
+menu {
+  background: #000f05;
+  color: #bfff1c;
+  padding: 4px;
+}
+
+menuitem {
+  border-radius: 8px;
+}
