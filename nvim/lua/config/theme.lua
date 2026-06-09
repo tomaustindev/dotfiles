@@ -17,4 +17,3 @@ vim.api.nvim_set_hl(0, "Constant",   { fg="#dbffdb" })
 vim.api.nvim_set_hl(0, "Float",      { fg="#dbffdb" })
 vim.api.nvim_set_hl(0, "Number",     { fg="#dbffdb" })
 vim.api.nvim_set_hl(0, "String",     { fg="#c5f09f" })
-

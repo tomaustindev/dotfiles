@@ -1,0 +1,3 @@
+default:
+  output: "~/.config/waybar/style.css"
+
