@@ -61,4 +61,6 @@ hl.bind(mainMod .. " + B", hl.dsp.exec_cmd(programs.browser))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(programs.fileManager))
 hl.bind(mainMod .. " + Space", hl.dsp.exec_cmd(programs.menu))
 hl.bind(mainMod .. " + Return", hl.dsp.exec_cmd(programs.terminal))
+hl.bind("Print", hl.dsp.exec_cmd("hyprshot -m region"))
+hl.bind("ALT + Print", hl.dsp.exec_cmd("hyprshot -m window"))
 
